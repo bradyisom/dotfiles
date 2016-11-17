@@ -91,3 +91,6 @@
 	prune = true
 [diff]
 	compactionHeuristic = true
+[user]
+	name = Brady Isom
+	email = bradyisom@gmail.com
