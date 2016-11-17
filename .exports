@@ -1,4 +1,4 @@
-# Make vim the default editor
+# vim as default
 export EDITOR="vim"
 
 # Don’t clear the screen after quitting a manual page
@@ -25,7 +25,9 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.6.14.1
 export PATH=$PATH:$EC2_HOME/bin
 
-export AWS_ACCESS_KEY_ID="AKIAIF5MLX5IHU2LRHNQ"
-export AWS_SECRET_ACCESS_KEY="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"
-
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+# here's LS_COLORS
+# github.com/trapd00r/LS_COLORS
+command -v gdircolors >/dev/null 2>&1 || alias gdircolors="dircolors"
+eval "$(gdircolors -b ~/.dircolors)"
