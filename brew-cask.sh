@@ -5,7 +5,7 @@
 #     brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
 
 # dev desktop
-brew install Caskroom/cask/github-desktop
+# brew install Caskroom/cask/github-desktop
 brew install Caskroom/cask/visual-studio-code
 
 # # Install native apps

@@ -94,6 +94,6 @@ alias update_brew_npm_gem='brew_update; npm install npm -g; npm update -g; sudo 
 alias dev="cd ~/Development"
 alias atly="cd ~/Development/atly.com"
 alias buzz="cd ~/Development/buzz"
-alias echo="cd ~/Development/echo"
+# alias echo="cd ~/Development/echo"
 alias xli="cd ~/Development/xli-ng"
 
