@@ -57,6 +57,8 @@ alias undopush="git push -f origin HEAD^:master"
 alias gr='[ ! -z `git rev-parse --show-cdup` ] && cd `git rev-parse --show-cdup || pwd`'
 alias master="git checkout master"
 
+alias cleanbranches="git branch --no-color --merged | egrep -v \"(^\*|master|dev)\" | xargs git branch -d"
+
 # Networking. IP address, dig, DNS
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 # alias dig="dig +nocmd any +multiline +noall +answer"
