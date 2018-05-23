@@ -117,4 +117,5 @@ shopt -s cdspell;
 
 # export ANDROID_HOME=/usr/local/share/android-sdk
 # export JAVA_HOME=/Library/Java/Home
+export GOPATH=/Users/bradyisom/Development/go
 export JAVA_HOME=$(/usr/libexec/java_home)
