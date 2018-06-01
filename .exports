@@ -32,3 +32,5 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # command -v gdircolors >/dev/null 2>&1 || alias gdircolors="dircolors"
 # eval "$(gdircolors -b ~/.dircolors)"
+
+export GOPATH=~/Development/go
